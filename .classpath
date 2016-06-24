@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/burhan/workspace/AnonymousChatApplication/src"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="com.sun.jersey.jersey-core-1.4.0.jar"/>
+	<classpathentry kind="lib" path="swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="org.json.jar"/>
+	<classpathentry kind="lib" path="swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="junit-4.12.jar"/>
+	<classpathentry kind="lib" path="appframework-1.0.3.jar"/>
+	<classpathentry kind="lib" path="json-20160212.jar"/>
+	<classpathentry kind="lib" path="hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="javax.json-api-1.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

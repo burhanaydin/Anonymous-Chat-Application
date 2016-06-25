@@ -69,8 +69,7 @@ public class domXMLParser {
                     }
                 }
             }
-        }catch(SAXException | IOException | DOMException ex){ 
-            
+        }catch(SAXException | IOException | DOMException ex){  
         }
         return null;
     }

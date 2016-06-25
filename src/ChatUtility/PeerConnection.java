@@ -131,11 +131,8 @@ public class PeerConnection {
         } else {
             this.messageToSend[4] = message;
         }
- 
         dispatch(protocol);
-
     }
-
     public void dispatch(String protocol) {
         List<peerNode> peers = xmlParser.reader(this.messageToSend[0], this.messageToSend[1], messageToSend[2]);
         Iterator<peerNode> it = peers.iterator();

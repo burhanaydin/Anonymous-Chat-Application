@@ -525,7 +525,7 @@ public class MainUI extends javax.swing.JFrame {
                      + "share  their  identity info during any online conversation to communicate  \n"
                      + "secretly  and was introduced  on trial in a course project. So, any contri-\n"
                      + "bution and/or bug report will be considered and deeply appreciated.\n";        
-        JOptionPane.showMessageDialog(getParent(),about,"            About"
+        JOptionPane.showMessageDialog(getParent(),about,"           About"
                                        , JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jMenuItem8MousePressed
 

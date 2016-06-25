@@ -19,6 +19,7 @@ import javax.swing.JMenuItem;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -68,8 +69,7 @@ public class domXMLParser {
                     }
                 }
             }
-        }catch(Exception ex){
-            ex.printStackTrace();
+        }catch(SAXException | IOException | DOMException ex){
         }
         return null;
     }
